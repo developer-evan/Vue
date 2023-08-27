@@ -36,9 +36,7 @@ export default {
     const password = ref('');
 
     const login = () => {
-      // Simulate successful login for the purpose of this example
-      // Replace this with your actual API consumption logic
-      // After successful login, navigate to the profile page
+      
       router.push('/profile');
     };
 
@@ -52,7 +50,7 @@ export default {
 </script>
 
 <style scoped>
-/* Your styles here */
+
 .page {
   max-width: 400px;
   margin: 0 auto;
